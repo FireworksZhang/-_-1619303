@@ -2,6 +2,7 @@
 #include<algorithm>
 using namespace std;
 
+//使用algorithm库中的sort函数进行排序，然后遍历一遍数组求出相邻两个数的差，再用一个min_变量存储差的最小值就解决了。
 int main()
 {
     int n,a[1007],ans[1007];
